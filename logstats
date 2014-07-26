@@ -16,3 +16,6 @@ git log --stat
 # Show all in past 1 week 
 git log --since=1.weeks
 
+# Show all by author
+git log --author="harayz"
+
