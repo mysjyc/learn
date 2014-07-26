@@ -1,0 +1,14 @@
+# Show all commit changes
+git log 
+
+# Show in one line
+git log --pretty=oneline 
+
+# Show in nicer format
+git log --pretty=format:"%h : %an : %ar : %s"
+
+# Show only last 2 commit
+git log -p -2
+
+# Show some stat info
+git log --stat
