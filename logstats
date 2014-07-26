@@ -12,3 +12,7 @@ git log -p -2
 
 # Show some stat info
 git log --stat
+
+# Show all in past 1 week 
+git log --since=1.weeks
+
