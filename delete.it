@@ -1,0 +1,9 @@
+delete from staging area but not the file.
+	git rm --cached delete.me
+
+
+git commit -m 'skipped gedit'
+git mv delete.me delete.it
+git add delete.it
+git commit -m 'deleted it + skipped gedit'
+
